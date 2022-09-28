@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+
+}
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+#encabezado{
+    width: 100%;
+    height: 100px;
+    
+    position: relative;
+}
+#navegador{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background: #ffffff;
+    opacity: 0.4;
+}
+li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 100px 100px 0;
+}
+a{
+    margin: 5px 10px 0 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 40px; 
+}
+.tituto-encabezado{
+    font-size: 70px;
+    position: absolute;
+    margin: 15px 0 0 28%;
+    animation-duration: 3s;
+    animation-name: movimiento;
+}
+@keyframes movimiento{
+    from {
+        margin-left: 200%;
+        width: 100px;
+    }
+    to {
+        margin-left: 20%;
+        width: 100%;
+    }
+}
+.tituto-encabezado:hover{
+    text-decoration: line-through;
+    margin-right: 50px;
+    transition-duration: 500ms;
+    text-shadow: 10px 10px 20px #ffffff;
+}
+
+#seccion{
+    width: 60%;
+    height: 600px;
+    float: left;
+    margin: 5px;
+}
+article{
+    text-align: center;
+    padding: 50px;
+}
+h2{
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+#aside{
+    width: 33%;
+    height: 600px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    border-radius: 30px 0 30px 0;
+    box-shadow: 2px 2px 20px 2px #ffffff;
+    
+}
+
+.titulo-aside{
+    text-align: center;
+    margin: 15px;
+}
+.imagen-perfil{
+    width: 400px;
+    height: 520px;
+    margin-left: 20px;
+    border-radius: 30px 0 30px 0;
+}
+
+
+#pie-pagina,hr{
+    clear: both;
+}
+
+#pie-pagina{
+    width: 100%;
+    height: 150px;
+}
+.imagen{
+    display: inline-block;
+    margin: 10px 0 0 35%;
+}
+.p{
+    margin: 10px 0 0 48%;
+}
