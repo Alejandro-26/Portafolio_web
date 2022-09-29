@@ -26,18 +26,43 @@ body{
     text-align: center;
     background: #ffffff;
     opacity: 0.4;
+    display: flex;
 }
-li{
+.logos{
     display: inline-block;
-    font-size: 20px;
-    margin: 10px 100px 100px 0;
+    font-size: 25px;
+    margin: 5px 10px  80px;
 }
+
 a{
     margin: 5px 10px 0 0;
     text-decoration: none;
     color: #000;
     font-weight: 40px; 
 }
+a:hover{
+    text-shadow: 5px 5px 18px #000;
+    color: #fff;
+}
+
+main{
+    height: 500px;
+    width: 500px;
+    background: #fff;
+}
+svg{
+    position: absolute;
+    margin: -20px 10px 50px 95%;
+}
+.svg1{
+    position: absolute;
+    margin: -20px 10px 50px 91%
+}
+.svg2{
+    position: absolute;
+    margin: -20px 10px 50px 87%
+}
+
 .tituto-encabezado{
     font-size: 70px;
     position: absolute;
@@ -68,18 +93,27 @@ a{
     float: left;
     margin: 5px;
 }
+ul{
+    list-style: none;
+}
+h4{
+    color: #000;
+    text-shadow: 2px 2px 20px  #fff;
+    margin-right: 50%;
+    margin-top: 30px;
+}
 article{
     text-align: center;
     padding: 50px;
 }
 h2{
-    margin: 10px auto;
+    margin: 5px auto;
     font-size: 30px;
 }
 
 #aside{
     width: 33%;
-    height: 600px;
+    height: 500px;
     margin: 10px;
     float: left;
     position: relative;
@@ -94,13 +128,13 @@ h2{
 }
 .imagen-perfil{
     width: 400px;
-    height: 520px;
+    height: 420px;
     margin-left: 20px;
     border-radius: 30px 0 30px 0;
 }
 
 
-#pie-pagina,hr{
+#pie-pagina{
     clear: both;
 }
 
